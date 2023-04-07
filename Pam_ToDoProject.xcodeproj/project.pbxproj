@@ -13,6 +13,10 @@
 		43585E5929DB502C00CBB9C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43585E5729DB502C00CBB9C5 /* Main.storyboard */; };
 		43585E5B29DB504200CBB9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43585E5A29DB504200CBB9C5 /* Assets.xcassets */; };
 		43585E5E29DB504200CBB9C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43585E5C29DB504200CBB9C5 /* LaunchScreen.storyboard */; };
+		43585E6729DB51AC00CBB9C5 /* CheckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43585E6629DB51AC00CBB9C5 /* CheckTableViewCell.swift */; };
+		43585E6A29DB51EF00CBB9C5 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43585E6929DB51EF00CBB9C5 /* Checkbox.swift */; };
+		43585E6D29DB522300CBB9C5 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43585E6C29DB522300CBB9C5 /* Todo.swift */; };
+		43585E7029DB526900CBB9C5 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43585E6F29DB526900CBB9C5 /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		43585E5A29DB504200CBB9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43585E5D29DB504200CBB9C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43585E5F29DB504200CBB9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43585E6629DB51AC00CBB9C5 /* CheckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\U0010CheckTableViewCell.swift"; sourceTree = "<group>"; };
+		43585E6929DB51EF00CBB9C5 /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		43585E6C29DB522300CBB9C5 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		43585E6F29DB526900CBB9C5 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				43585E5A29DB504200CBB9C5 /* Assets.xcassets */,
 				43585E5C29DB504200CBB9C5 /* LaunchScreen.storyboard */,
 				43585E5F29DB504200CBB9C5 /* Info.plist */,
+				43585E6629DB51AC00CBB9C5 /* CheckTableViewCell.swift */,
+				43585E6929DB51EF00CBB9C5 /* Checkbox.swift */,
+				43585E6C29DB522300CBB9C5 /* Todo.swift */,
+				43585E6F29DB526900CBB9C5 /* TodoViewController.swift */,
 			);
 			path = Pam_ToDoProject;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				43585E5629DB502C00CBB9C5 /* ViewController.swift in Sources */,
+				43585E6D29DB522300CBB9C5 /* Todo.swift in Sources */,
+				43585E7029DB526900CBB9C5 /* TodoViewController.swift in Sources */,
+				43585E6729DB51AC00CBB9C5 /* CheckTableViewCell.swift in Sources */,
 				43585E5229DB502C00CBB9C5 /* AppDelegate.swift in Sources */,
 				43585E5429DB502C00CBB9C5 /* SceneDelegate.swift in Sources */,
+				43585E6A29DB51EF00CBB9C5 /* Checkbox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
